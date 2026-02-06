@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bipin Kole | Professional Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Silent Background Wrapper -->
+    <div class="background-wrapper" id="bg-wrapper">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Bipin <span>Kole</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="profile-container reveal">
+            <img src="bipin1.jpeg" alt="Bipin Kole" class="profile-img">
+        </div>
+        <div class="hero-text reveal">
+            <h1>Hello, I'm Bipin Kole</h1>
+            <h2>I am a <span id="typing-text"></span><span class="typewriter-cursor"></span></h2>
+            <a href="#contact" class="btn">Connect With Me</a>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title reveal">Education</h2>
+        <div class="timeline">
+            <!-- MCA -->
+            <div class="timeline-item left reveal">
+                <div class="content-box">
+                    <h3>Master of Computer Applications</h3>
+                    <div class="year">DYPatil Agricultural and Technical University, Talsande</div>
+                    <p>Specialized in advanced software engineering, database management systems, and network security.</p>
+                </div>
+            </div>
+            <!-- BCS -->
+            <div class="timeline-item right reveal">
+                <div class="content-box">
+                    <h3>Bachelor of Computer Science</h3>
+                    <div class="year">Jaysingpur College, Jaysingpur</div>
+                    <p>Focused on core programming concepts, algorithms, data structures, and web development fundamentals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title reveal">Technical Skills</h2>
+        <div class="skills-wrapper reveal">
+           
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>HTML5 / CSS3</span>
+                    <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="95%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>JavaScript (ES6+)</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="85%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Python</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="80%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Java / MCA Core</span>
+                    <span>75%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="75%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>SQL & Database Management</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="80%"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2 class="section-title reveal">Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card reveal">
+                <i class="fab fa-aws"></i>
+                <h3>AWS Academy Graduate – Cloud Foundations</h3>
+                <p>Training Badge</p>
+                <a href="aws.pdf" target="_blank" class="btn">View Certificate</a>
+            </div>
+            <div class="cert-card reveal">
+                <i class="fas fa-database"></i>
+                <h3>SQL and Relational Databases 101</h3>
+                <p>IBM / Coursera</p>
+                <a href="IBM DB0101EN Certificate _ Etrain (1).pdf" target="_blank" class="btn">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-container reveal">
+        <div class="contact-info">
+                <p style="color: var(--text-muted);">I am currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:bipinkole0110@gmail.com">bipinkole0110@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/bipin-kole-81b802380" target="_blank">LinkedIn Profile</a>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/bipinkole0110-eng" target="_blank">GitHub Profile</a>
+                </div>
+            </div>
+
+            <form id="contactForm">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div id="toast"><i class="fas fa-check-circle"></i> Message sent successfully!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
